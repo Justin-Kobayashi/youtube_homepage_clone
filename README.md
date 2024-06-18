@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -32,4 +31,3 @@ export default {
 =======
 # Youtube-homepage
 Replication of the Youtube homepage
->>>>>>> a69400f497416d13da083e79ec5e7c6bade8d39b
