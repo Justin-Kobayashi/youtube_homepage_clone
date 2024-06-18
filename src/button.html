@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter Button</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .counter {
+            font-size: 100px;
+            margin-top: 10px;
+        }
+        button {
+            font-size: 20px;
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <button onclick="incrementCounter()">Click Me!</button>
+        <div id="counter" class="counter">0</div>
+    </div>
+
+    <script>
+        let count = 0; // Initial counter value
+        function incrementCounter() {
+            count++; // Increment the counter
+            document.getElementById('counter').innerText = count; // Update the display
+        }
+    </script>
+</body>
+</html>
